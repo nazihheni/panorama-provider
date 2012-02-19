@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SURF">
+      <UniqueIdentifier>{d32f9fd3-8614-4c5f-b598-eb3f5d79eaf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SURF">
+      <UniqueIdentifier>{f230008b-4657-479b-a6b6-bd163f65976b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RANSAC">
+      <UniqueIdentifier>{8b9c1358-d5ea-4ebe-bc34-48652fc4c941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RANSAC">
+      <UniqueIdentifier>{d92eceae-bb7d-4949-ad7c-d17c14ed5ba3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\SURFPano.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SURFPano.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SURFPano.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SURFPanoDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SURFmatch.h">
+      <Filter>Header Files\SURF</Filter>
+    </ClInclude>
+    <ClInclude Include="RansacHomography.h">
+      <Filter>Header Files\RANSAC</Filter>
+    </ClInclude>
+    <ClInclude Include="Ransac.h">
+      <Filter>Header Files\RANSAC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SURFPano.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SURFPanoDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SURFMatch.cpp">
+      <Filter>Source Files\SURF</Filter>
+    </ClCompile>
+    <ClCompile Include="RansacHomography.cpp">
+      <Filter>Source Files\RANSAC</Filter>
+    </ClCompile>
+    <ClCompile Include="Ransac.cpp">
+      <Filter>Source Files\RANSAC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SURFPano.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
